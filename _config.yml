@@ -1,6 +1,14 @@
 # Jekyll configuration
 
-theme: minima
+title: hazzuk/chromewebstore-dark
+description: test
+author:
+  name: hazzuk
+
+remote_theme: jekyll/minima
 
 minima:
   skin: dark
+
+social_links:
+  - { platform: github, user_url: "https://github.com/hazzuk/chromewebstore-dark" }
