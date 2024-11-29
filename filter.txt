@@ -1,0 +1,182 @@
+! Title: Hazzuk's filters - Chrome Web Store dark
+! Last modified: %timestamp%
+! Expires: 4 days
+! Description: Dark mode for the Chrome Web Store
+! Homepage: https://github.com/hazzuk/chromewebstore-dark
+! License: https://github.com/hazzuk/chromewebstore-dark/blob/main/LICENSE
+! Link: https://raw.githubusercontent.com/hazzuk/chromewebstore-dark/refs/heads/main/filter.txt
+
+!-------------------------------------------------------------!
+
+! Copyright (c) 2024 hazzuk. All rights reserved.
+! This Source Code Form is subject to the terms of the Mozilla Public
+! License, v. 2.0. If a copy of the MPL was not distributed with this file,
+! you can obtain one at https://mozilla.org/MPL/2.0/.
+
+!-------------------------------------------------------------!
+
+! If you're using uBlock Origin, add this file's URL to
+! `Dashboard > Filter lists > Import...`
+
+! If you're using Brave, add this file's URL to your Custom lists
+! `brave://settings/shields/filters`
+
+! Test pages
+! https://chromewebstore.google.com/
+! https://chromewebstore.google.com/category/extensions
+! https://chromewebstore.google.com/collection/chrome_color_themes
+! https://chromewebstore.google.com/detail/stylish-custom-themes-for/fjnbnpbmkenffdnngjfgmeleoegfcffe
+! https://chromewebstore.google.com/detail/stylish-custom-themes-for/fjnbnpbmkenffdnngjfgmeleoegfcffe/reviews
+! https://chromewebstore.google.com/detail/stylish-custom-themes-for/fjnbnpbmkenffdnngjfgmeleoegfcffe/support
+! https://chromewebstore.google.com/detail/stylish-custom-themes-for/fjnbnpbmkenffdnngjfgmeleoegfcffe/privacy
+! https://chromewebstore.google.com/detail/fjnbnpbmkenffdnngjfgmeleoegfcffe/report
+! https://chromewebstore.google.com/search/
+! https://chromewebstore.google.com/user/installed
+
+! Comments syntax
+! `/`       page
+! ##nav     component
+! >tabs     sub-component
+
+!-------------------------------------------------------------!
+
+! `/*`
+! ##text
+chromewebstore.google.com##h1:style(color: white !important)
+chromewebstore.google.com##h2:style(color: white !important)
+chromewebstore.google.com##h3:style(color: white !important)
+chromewebstore.google.com##h4:style(color: white !important)
+chromewebstore.google.com##h5:style(color: white !important)
+chromewebstore.google.com##h6:style(color: white !important)
+chromewebstore.google.com##p:style(color: white !important)
+chromewebstore.google.com##div:style(color: white !important)
+chromewebstore.google.com##span:style(color: white !important)
+chromewebstore.google.com##label:style(color: white !important)
+chromewebstore.google.com##input:style(color: white !important)
+! ##links
+chromewebstore.google.com##a:style(color: #4268e2 !important)
+chromewebstore.google.com##.mUIrbf-vQzf8d:style(color: #4268e2 !important)
+! ##background
+chromewebstore.google.com###yDmH0d:style(background-color: #181818 !important)
+! ##icons
+chromewebstore.google.com##.NMm5M:style(fill: #4497c8 !important)
+! ##hover-box
+chromewebstore.google.com##.HPTfYd-z59Tgd:style(background-color: #262626 !important)
+! ##options-menu
+! >background-blur
+chromewebstore.google.com##.tB5Jxf-xl07Ob-XxIAqe :style(background-color: #33333382 !important; backdrop-filter: blur(24px) !important)
+! >menu-hover
+chromewebstore.google.com##.RBHQF-ksKsZd::before:style(background-color: #fff !important)
+! ##nav
+chromewebstore.google.com##.nc05Db:style(background-color: #262626 !important)
+! >tabs
+chromewebstore.google.com###discoverTab:style(background-color: #262626 !important)
+chromewebstore.google.com###extensionsTab:style(background-color: #262626 !important)
+chromewebstore.google.com###themesTab:style(background-color: #262626 !important)
+! >tabs small-width
+chromewebstore.google.com##.LXTxRc-AznF2e:style(background-color: #262626 !important)
+! ##search
+! >query box
+chromewebstore.google.com##.vHhHPc:style(background-color: #333333 !important)
+chromewebstore.google.com##.vHhHPc:focus-within:style(box-shadow: #ffffff1a 0 1px 1px 0, #5895c540 0 1px 3px 1px !important)
+! >results box
+chromewebstore.google.com##.EFGK6e:style(background-color: #393939 !important)
+chromewebstore.google.com##.eo4ZE:hover:style(background: #333333 !important)
+! ##filters-menu
+! >background-blur
+chromewebstore.google.com##.FkS5nd .VfPpkd-YPmvEd:style(background-color: #33333382 !important; backdrop-filter: blur(24px) !important; box-shadow: 0 1px 2px 0 rgb(var(--gm3-sys-color-shadow-rgb, 0, 0, 0), .3), 0 2px 6px 2px rgb(var(--gm3-sys-color-shadow-rgb, 0, 0, 0), .15) !important)
+! >selected
+chromewebstore.google.com##.VfPpkd-OkbHre.VfPpkd-rymPhb-ibnC6b.VfPpkd-rymPhb-ibnC6b-OWXEXe-gk6SMd:style(background-color: #698eca !important)
+! ##list-hover
+chromewebstore.google.com##.VfPpkd-rymPhb-ibnC6b .VfPpkd-rymPhb-pZXsl::before:style(background-color: #97e4ff !important)
+! ##buttons
+chromewebstore.google.com##.AeBiU-LgbsSe:style(background-color: #fff !important)
+chromewebstore.google.com##.AeBiU-vQzf8d:style(color: black !important)
+! ##back-to-top
+chromewebstore.google.com##.CmLhje:style(z-index: 1 !important)
+chromewebstore.google.com##.google-material-icons:style(color: black !important)
+! ##footer
+! >divider
+chromewebstore.google.com##.yHWa2:style(border-top: 1px solid #2e2e2e !important)
+
+! `/`
+! ##carousel
+! >nav
+chromewebstore.google.com##.btVQce:style(background-color: #33333324 !important; border-radius: 50px !important; margin-bottom: 8px !important; padding: 8px !important; width: 185px !important)
+! >collections
+chromewebstore.google.com##.R3mvd:style(background-color: #0000001c !important; padding-top: 10px !important; padding-bottom: 10px !important; backdrop-filter: blur(8px) !important)
+chromewebstore.google.com##.ESKezc:style(background-color: #0000001c !important; padding-bottom: 10px !important; margin: 0 !important; backdrop-filter: blur(8px) !important)
+! >extentsions
+chromewebstore.google.com##.lURSMc:style(background-color: rgb(71 79 96) !important)
+chromewebstore.google.com##.KKp0qc:style(background-color: #ffffffa6 !important)
+chromewebstore.google.com##.z9cYof:style(background-color: #ffffffa6 !important)
+! ##top-categories
+chromewebstore.google.com##.ScFtwd:style(background: linear-gradient(45deg, #434345, var(--tc-bg-color)) !important)
+! >icon
+chromewebstore.google.com##.ScFtwd:hover>.eBC1oe:style(background-color: #ffffff59 !important)
+chromewebstore.google.com##.eBC1oe:style(box-shadow: inset 0px 0px 20px 0px #fff !important; transition: background-color 0.3s ease)
+! ##cards
+chromewebstore.google.com##.cD9yc:style(background-color: #333333 !important)
+! ##collection-banners
+chromewebstore.google.com##.ry9vO:style(color: black !important)
+chromewebstore.google.com##.zM9uL:style(color: black !important)
+! >darkmode-banner
+chromewebstore.google.com##section[style^="--bp-image-url:url(https://ssl.gstatic.com/chrome/webstore/images/promo/banner_dark_mode.png);"] > *:style(color: white !important)
+! >button
+chromewebstore.google.com##.kh0JGc:style(background-color: #ffffffa6 !important)
+! ##monthly-spotlight
+chromewebstore.google.com##.VVW5Fe:style(background-color: #4f5f7a !important; transition: background-color 0.3s ease)
+chromewebstore.google.com##.VVW5Fe:hover:style(background-color: #738bb4 !important)
+
+! `/category/xyz`
+! ##sidebar
+chromewebstore.google.com##.nwb9lc:style(border-radius: 20px !important)
+! >divides
+chromewebstore.google.com##.VfPpkd-rymPhb-clz4Ic:style(background-color: rgb(255 255 255 / 6%) !important)
+
+! `/collection/xyz`
+! ##cards
+chromewebstore.google.com##.zSnsJ:style(background-color: #333333 !important)
+
+! `/detail/extenstion/123`
+! ##logo
+chromewebstore.google.com##.rBxtY:style(box-shadow: 0px 0px 20px 0px #ffffff11 !important; outline-color: #ffffff0d !important; outline-width: 2px !important; outline-style: solid !important)
+! ##only-chromeos
+chromewebstore.google.com##.xX710b.c5K4Te:style(background-color: #3a4849 !important)
+! ##write-a-review
+chromewebstore.google.com##textarea:style(background-color: #333333 !important; color: white !important)
+! ##website
+chromewebstore.google.com##.VfPpkd-P5QLlc:style(background-color: #333333 !important)
+! ##related
+chromewebstore.google.com##.I2vRBb:style(background-color: #333333 !important)
+
+! `/detail/extenstion/privacy`
+! ##permissions
+chromewebstore.google.com##.uY5eWe:style(background-color: #262626 !important)
+
+! `/detail/extenstion/123/reviews`
+! ##comments
+chromewebstore.google.com##.T7rvce:style(background-color: #262626 !important)
+chromewebstore.google.com##.OSq6d:style(background-color: #333333 !important)
+! ##dev-badge
+chromewebstore.google.com##.Sh37lf:style(background-color: #316d42 !important)
+! ##my-review
+chromewebstore.google.com##.FKvige:style(background-color: #262626 !important)
+
+! `/detail/extenstion/123/support`
+! ##comments
+chromewebstore.google.com##.Qwt49e:style(background-color: #262626 !important)
+chromewebstore.google.com##.RKRlf:style(background-color: #333333 !important)
+
+! `/detail/extenstion/123/report`
+! ##form
+chromewebstore.google.com##.XLPYmc:style(background-color: #262626 !important)
+
+! `/user/installed`
+! ##extensions
+chromewebstore.google.com##.Cb7Kte:style(background-color: #262626 !important)
+chromewebstore.google.com##.Cb7Kte:hover:style(background-color: #333333 !important)
+
+! `/search/xyz`
+! ##tag-types
+chromewebstore.google.com##.JY6MEf.uoC0bf-XPtOyb-OWXEXe-gk6SMd:style(background-color: #316d42 !important)
