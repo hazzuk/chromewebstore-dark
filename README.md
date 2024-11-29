@@ -1,5 +1,5 @@
 # chromewebstore-dark
-Dark mode for the Chrome Web Store, using ad block static filter styles
+Dark mode for the [Chrome Web Store](https://chromewebstore.google.com/) using ad block static filter styles
 
 ![Example image](https://raw.githubusercontent.com/hazzuk/chromewebstore-dark/refs/heads/main/example.webp)
 
@@ -12,7 +12,7 @@ Because my favourite dark mode extension [Dark Reader](https://github.com/darkre
 First, copy the filters URL:
 
 ```
-https://raw.githubusercontent.com/hazzuk/chromewebstore-dark/refs/heads/main/filter.txt
+https://hazzuk.github.io/chromewebstore-dark/filter.txt
 ```
 
 ### uBlock Origin
