@@ -1,7 +1,7 @@
 # chromewebstore-dark
 Dark mode for the Chrome Web Store, using ad block static filter styles
 
-![Example image](https://github.com/hazzuk/chromewebstore-dark/blob/main/LICENSE)
+![Example image](https://raw.githubusercontent.com/hazzuk/chromewebstore-dark/refs/heads/main/example.webp)
 
 ## Why?
 
