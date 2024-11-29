@@ -19,7 +19,7 @@
 ! `Dashboard > Filter lists > Import...`
 
 ! If you're using Brave, add this file's URL to your Custom lists
-! `brave://settings/shields/filters`
+! `brave://settings/shields/filters` > Add custom filter lists 
 
 ! Test pages
 ! https://chromewebstore.google.com/

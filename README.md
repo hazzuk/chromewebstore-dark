@@ -22,4 +22,4 @@ If you're using uBlock Origin, add the URL to
 ### Brave Browser
 
 If you're using Brave, add the URL to **Custom lists**
-- [brave://settings/shields/filters](brave://settings/shields/filters)
+- brave://settings/shields/filters > Add custom filter lists
