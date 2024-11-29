@@ -1,10 +1,13 @@
 # Jekyll configuration
 
-title: hazzuk/chromewebstore-dark
+# repo name
+title: chromewebstore-dark
+
+# github username
 author:
   name: hazzuk
 
+# theme settings
 remote_theme: jekyll/minima
-
 minima:
   skin: dark
