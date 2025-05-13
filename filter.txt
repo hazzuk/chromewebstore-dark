@@ -180,3 +180,11 @@ chromewebstore.google.com##.Cb7Kte:hover:style(background-color: #333333 !import
 ! `/search/xyz`
 ! ##tag-types
 chromewebstore.google.com##.JY6MEf.uoC0bf-XPtOyb-OWXEXe-gk6SMd:style(background-color: #316d42 !important)
+
+! patches
+! front page highlights
+chromewebstore.google.com##.DoVBPc:style(background-color: #252626 !important)
+!browse category buttons (left hand menu)
+chromewebstore.google.com##.W7g1Rb-rymPhb-ibnC6b:style(background-color: rgb(51, 51, 51) !important)
+!browse category selected button (left hand menu)
+chromewebstore.google.com##.W7g1Rb-rymPhb-ibnC6b-OWXEXe-gk6SMd:style(background-color: #0b57d0 !important)
